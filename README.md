@@ -7,6 +7,21 @@ As part of this, I also reviewed data revisions and corrections made by the Worl
 The paper accompanying this project will be uploaded in the coming days — I am currently finalizing the last specifications.
 
 
+## Project Structure
+
+- **data/**: This folder contains all the datasets used for the analysis.
+    - `dataset_by_Dell.dta`: This dataset was used and published by Dell et al. 2012, which we use to replicate their work.
+    - `cl.rds`: This is the main dataset we use for everything else.
+    - `capita_LCU.xlsx`: World bank WDI data on GDP per capita (constant LCU)
+    - `capita_PPP.xlsx`: World bank WDI data on GDP per capita, PPP (constant 2021 international $)
+
+- **figures/**: This folder contains figures used iin the paper.
+    - `Figure1.png`
+    - `Figure2.png`
+
+- **code/**: Contains the output files from the analysis.
+    - `results_summary.csv`: A summary of the key results, including the impact of temperature on economic growth.  
+    - `extended_results.csv`: Results from the extended analysis period (11 more years).
 
 
 ## Installation & Usage
