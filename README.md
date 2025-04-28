@@ -21,7 +21,11 @@ The paper accompanying this project will be uploaded in the coming days — I am
 
 - **code/**: This folder contains all the code written in R or Python for our analysis.
     - `Replication_of_Dell.R`: Replicates the main results of Dell et al. 2012.
-    - `extended_results.csv`: Results from the extended analysis period (11 more years).
+    - `new_weighted_temp.ipynb`: Calculates population weighted average annual temperature between 1960 and 2014 for every country in our analysis.
+    - `making_the_dataset.R`: Constructs our main dataset cl.rds by including new temperature data, new gdp data and some information from dataset_by_Dell.dta
+    - `descriptive_statistics.R`: Calculates figures and other descriptive statistics.
+    - `main_table.R`: Calculates the main results of our regression analysis.
+    - `Robustness.R`: Contains Robustness Tests for our results.
 
 
 ## Installation & Usage
