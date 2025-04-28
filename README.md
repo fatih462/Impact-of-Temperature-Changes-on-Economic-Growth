@@ -5,3 +5,10 @@ I based my approach on the methodology of Dell et al. (2012). First, I replicate
 As part of this, I also reviewed data revisions and corrections made by the World Bank, since updated GDP data slightly altered the original results of Dell et al. (2012).
 
 The paper accompanying this project will be uploaded in the coming days — I am currently finalizing the last specifications.
+
+
+
+
+## Installation & Usage
+
+To run the analysis, you will need R installed, along with the necessary libraries. If you want to download the temperature data yourself (instead of using the data in cl.rds), you will need ArcGIS software that supports running Arcpy code.
