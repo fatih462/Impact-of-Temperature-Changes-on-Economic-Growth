@@ -19,8 +19,8 @@ The paper accompanying this project will be uploaded in the coming days — I am
     - `Figure1.png`
     - `Figure2.png`
 
-- **code/**: Contains the output files from the analysis.
-    - `results_summary.csv`: A summary of the key results, including the impact of temperature on economic growth.  
+- **code/**: This folder contains all the code written in R or Python for our analysis.
+    - `Replication_of_Dell.R`: Replicates the main results of Dell et al. 2012.
     - `extended_results.csv`: Results from the extended analysis period (11 more years).
 
 
